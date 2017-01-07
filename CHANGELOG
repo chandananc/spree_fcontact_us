@@ -1,0 +1,11 @@
+*SpreeFcontactUs 1.1.1 (Unreleased)*
+
+* Added conversion tracking. [kennyadsl]
+
+* Updated form translations. [kennyadsl]
+
+*SpreeFcontactUs 1.1.0 (May 15th 2012)*
+
+* Changed route to /fcontact-us from /fcontract_us for seo. [Jeff Dutil]
+
+* Allow Spree Core 1.0.x [Jeff Dutil]
