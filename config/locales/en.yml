@@ -1,0 +1,24 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  spree:
+    activemodel:
+      attributes:
+        fcontact_us/fcontact:
+          name: "Name"
+          email: "Email"
+          message: "Message"
+          subject: "Subject"
+    fcontact_us_title: "Contact Us"
+    sent_by_fcontact_form: "Sent by contact form from %{email}"
+    sent_by_name: "Sent by %{name} from %{email}"
+    subject: "Contact Us message from %{email}"
+    submit: "Submit"
+
+    Fcontact_us:
+      notices:
+        success: "Contact email was successfully sent."

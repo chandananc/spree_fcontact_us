@@ -1,0 +1,3 @@
+<p><%= @fcontact.message %></p>
+<p>---------------------</p>
+<p><%= SpreeFcontactUs.require_name ? Spree.t(:sent_by_name, :email => @fcontact.email, :name => @fcontact.name) : Spree.t(:sent_by_fcontact_form, :email => @fcontact.email) %></p>
